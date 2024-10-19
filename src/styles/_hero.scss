@@ -1,0 +1,32 @@
+.hero {
+    background-image: linear-gradient(to bottom, #9320ff, #6e16c0);
+    margin: 70px;
+    border-radius: 20px;
+    height: 500px;
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__text {
+        color: white;
+        padding: 30px;
+        text-align: center;
+
+    }
+
+    &__title {
+        font-size: 60px;
+        padding-bottom: 20px;
+    }
+
+    &__p {
+        font-size: 30px;
+    }
+
+    &__img {
+        width: 500px;
+    }
+}
