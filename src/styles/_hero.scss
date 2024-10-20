@@ -2,6 +2,8 @@
     background-image: linear-gradient(to bottom, #9320ff, #6e16c0);
     margin: 70px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
     height: 500px;
 
     &__box {
@@ -28,5 +30,45 @@
 
     &__img {
         width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero{
+        height: 300px;
+        
+        margin: 40px;
+
+        &__img{
+            width: 180px;
+        }
+
+        &__p {
+            font-size: 16px;
+        }
+
+        &__title {
+            font-size: 25px
+        }
+
+        &__text{
+            padding: 20px;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .hero{
+        &__img{
+            width: 300px;
+        }
+
+        &__p {
+            font-size: 26px;
+        }
+
+        &__title {
+            font-size: 46px
+        }
     }
 }
